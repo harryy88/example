@@ -1,55 +1,63 @@
 *{
     box-sizing: border-box;
+
+    /* background: url('http://i2.wp.com/backgroundmachine.com/wp-content/uploads/2015/07/hd-wallpaper-for-blue-gradient-background-with-light-blue-gradient-wallpaper-light-blue-gradient-with-android-wallpaper.jpg?fit=973%2C456'); */
+    /* background: url('https://webgradients.com/public/webgradients_png/013%20Heavy%20Rain.png'); */
 }
 
 body{
   background-color: #b0ffb5;
+  background: url('https://webgradients.com/public/webgradients_png/013%20Heavy%20Rain.png');
 }
 li {
   list-style-type: none;
 }
 .contain{
   /* border: 1px black solid; */
-  width: 80%;
-  height:60em;
-
+  width: 98%;
+  height:90em;
   display: grid;
-  margin: 0 10%;
-  right: 30px;
+  margin: 0 auto;
+  top: 2px;
+  /* right: 30px; */
   /* grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(5, 10em); */
-  grid-template: repeat(100, 1fr)/ repeat(100, 1fr);
+  grid-template: repeat(125, 1fr)/ repeat(100, 1fr);
   /* grid-gap: 5px; */
+  margin-top: -7.1%;
 }
 .box{
   background-color: #white;
   color: black;
 
  border-radius: 5px;
- border: solid grey 3px;
+ border: dotted grey 3px;
 }
 .A{
   grid-row: 10/span 15;
   grid-column: 1/span 100;
-  border: black 2px solid ;
+  border: black 2px dotted ;
 }
 .B{
   grid-row: 25/span 85;
   grid-column: 1/span 25;
-  border: black 2px solid ;
+  border: black 2px dotted ;
 }
 .C{
   grid-row: 25/span 85;
   grid-column: 26/span 55;
-  border: black 2px solid ;
+  border: black 2px dotted ;
 }
 .D{
   grid-row: 25/span 85;
   grid-column: 81/span 25;
-  border: black 2px solid ;
+  border: black 2px dotted ;
 }
 .E{
-  grid-row: 100/span 25;
+  grid-row: 110/span 25;
   grid-column: 1/span 100;
-  border: black 2px solid ;
+  border: black 2px dotted ;
+}
+p{
+  text-align: center;
 }
